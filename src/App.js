@@ -1,13 +1,11 @@
 import "./App.css";
 
-import PageHome from "./PageHome";
-import SectionFooterMuri from "./SectionFooterMuri";
+import PageHome from "./pages/PageHome";
 
 export default function App() {
   return (
     <div className="App">
       <PageHome />
-      <SectionFooterMuri />
     </div>
   );
 }
