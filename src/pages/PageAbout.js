@@ -5,7 +5,7 @@ import SectionFooterMuri from "../SectionFooterMuri";
 
 export default function PageAbout() {
   return (
-    <div className="PageAbout">
+    <div className="PageAbout container">
       <Navbar />
       <h1>Contenido de la página de about</h1>
       <SectionFooterMuri />
