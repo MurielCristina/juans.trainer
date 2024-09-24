@@ -11,6 +11,8 @@ import PageAbout from "./pages/PageAbout";
 import PagePrograms from "./pages/PagePrograms";
 import PageTrainWithMe from "./pages/PageTrainWithMe";
 
+import "bootstrap/dist/css/bootstrap.css";
+
 const router = createBrowserRouter([
   {
     path: "",
