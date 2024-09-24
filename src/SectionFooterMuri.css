@@ -1,0 +1,16 @@
+.SectionFooterMuri {
+  text-align: end;
+  color: black;
+  opacity: 0.6;
+  margin: 25px;
+}
+.SectionFooterMuri p {
+  font-size: 12px;
+}
+.SectionFooterMuri a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.SectionFooterMuri a img {
+  width: 12px;
+}
