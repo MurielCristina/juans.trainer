@@ -1,9 +1,32 @@
 .FooterJuansTrainer {
-  background-color: #1a1a1a;
-}
-.FooterJuansTrainer h4 {
+  background-color: #010101;
   color: var(--DarkText);
+  padding: 50px 20px;
+  border: 2px solid var(--LogoColor);
 }
 .FooterJuansTrainer img {
-  width: 300px;
+  width: 250px;
+}
+.FooterJuansTrainer h4 {
+  text-transform: uppercase;
+  font-size: 26px;
+  margin-top: 20px;
+}
+.FooterJuansTrainer a {
+  font-size: 18px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: var(--DarkAccent);
+}
+.FooterJuansTrainer .footer-icons {
+  font-size: 18px;
+  margin-left: 10px;
+  color: var(--DarkAccent);
+}
+.FooterJuansTrainer h4 small {
+  text-decoration: underline;
+}
+.FooterJuansTrainer a:hover {
+  color: var(--AccentColor2);
+  cursor: pointer;
 }
