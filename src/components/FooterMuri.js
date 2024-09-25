@@ -1,12 +1,12 @@
 import React from "react";
 
-import "./SectionFooterMuri.css";
+import "./FooterMuri.css";
 
-import murilogo from "./images/murilogo.png";
+import murilogo from "../images/murilogo.png";
 
-export default function SectionFooterMuri() {
+export default function FooterMuri() {
   return (
-    <div className="SectionFooterMuri">
+    <div className="FooterMuri">
       <hr />
       <p>
         This page was coded{" "}
