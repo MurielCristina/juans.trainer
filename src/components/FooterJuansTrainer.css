@@ -1,0 +1,9 @@
+.FooterJuansTrainer {
+  background-color: #1a1a1a;
+}
+.FooterJuansTrainer h4 {
+  color: var(--DarkText);
+}
+.FooterJuansTrainer img {
+  width: 300px;
+}
