@@ -11,7 +11,7 @@
 .FooterMuri a {
   text-decoration: none;
   font-weight: 600;
-  color: var(--AccentColor2);
+  color: var(--LightAccent);
 }
 .FooterMuri a img {
   width: 12px;

@@ -9,3 +9,38 @@
   align-items: center;
   justify-content: space-between;
 }
+.navbar-logo img {
+  height: 50px;
+}
+.navbar-links {
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.navbar-links li {
+  margin: 0 15px;
+}
+.navbar-links a {
+  text-decoration: none;
+  color: var(--TextColor);
+  font-size: 18px;
+}
+.navbar-links a:hover {
+  color: var(--AccentColor1);
+}
+.navbar-theme-toggle button {
+  background-color: transparent;
+  border: 2px solid var(--AccentColor1);
+  border-radius: 5px;
+  color: var(--TextColor);
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.navbar-theme-toggle button:hover {
+  background-color: var(--AccentColor1);
+  color: var(--TextColor);
+}

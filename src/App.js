@@ -1,12 +1,18 @@
+import React, { useState } from "react";
 import "./App.css";
 
 import PageHome from "./pages/PageHome";
 
 export default function App() {
-  const theme = "ligth";
+  const [theme, setTheme] = useState("ligth");
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+  };
+
   return (
-    <div className="App">
-      <PageHome />
+    <div className={theme === "dark" ? "dark-theme" : "light-theme"}>
+      <PageHome theme={theme} toggleTheme={toggleTheme} />
     </div>
   );
 }

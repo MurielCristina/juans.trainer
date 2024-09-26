@@ -6,15 +6,13 @@ import HeroStart from "./PageHome/HeroStart";
 import FooterJuansTrainer from "../components/FooterJuansTrainer";
 import FooterMuri from "../components/FooterMuri";
 
-export default function PageHome() {
+export default function PageHome({ theme, toggleTheme }) {
   return (
     <div className="PageHome container">
-      <div className={theme === "dark" ? "dark-theme" : "light-theme"}>
-        <Navbar />
-        <HeroStart />
-        <FooterJuansTrainer />
-        <FooterMuri />
-      </div>
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
+      <HeroStart />
+      <FooterJuansTrainer theme={theme} />
+      <FooterMuri />
     </div>
   );
 }

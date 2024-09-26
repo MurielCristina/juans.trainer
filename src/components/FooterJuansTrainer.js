@@ -1,14 +1,13 @@
 import React from "react";
 
 import "./FooterJuansTrainer.css";
-import logoLight from "../images/logoDark.jpeg";
-import logoDark from "../images/logoLight.jpeg";
+import logoDark from "../images/logoDark.jpeg";
+import logoLight from "../images/logoLight.jpeg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
-export default function FooterJuansTrainer(props) {
-  const { theme } = props;
+export default function FooterJuansTrainer({ theme }) {
   const logo = theme === "dark" ? logoDark : logoLight;
 
   return (

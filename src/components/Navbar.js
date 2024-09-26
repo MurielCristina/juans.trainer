@@ -10,11 +10,6 @@ export default function Navbar({ theme, toggleTheme }) {
 
   return (
     <nav className="Navbar">
-      <Link to={"/PageHome"}>HOME</Link>
-      <Link to={"/PageAbout"}>ABOUT</Link>
-      <Link to={"/PagePrograms"}>PROGRAMS</Link>
-      <Link to={"/PageTrainWithMe"}>TRAIN WITH ME</Link>
-
       <div className="navbar-container">
         <div className="navbar-logo">
           <Link to={"/PageHome"}>
@@ -37,8 +32,8 @@ export default function Navbar({ theme, toggleTheme }) {
           </li>
         </ul>
 
-        <div className="navbar-theme.toggle">
-          <button conClick={toggleTheme}>
+        <div className="navbar-theme-toggle">
+          <button onClick={toggleTheme}>
             {theme === "dark" ? "Light Mode" : "Dark Mode"}
           </button>
         </div>
