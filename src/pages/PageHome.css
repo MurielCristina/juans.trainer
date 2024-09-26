@@ -1,0 +1,68 @@
+/*HERO START - start*/
+.HeroStart {
+  background-image: url("/src/images/heroPic.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: var(--DarkText);
+  text-align: center;
+  padding: 150px 20px;
+}
+.HeroStart::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(var(--LogoColorRGB), 0.7);
+  z-index: 1;
+}
+.hero-content {
+  position: relative;
+  z-index: 2; /* Place content above the overlay */
+}
+.HeroStart h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.HeroStart h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.HeroStart p {
+  font-size: 18px;
+  margin: 0 auto 40px auto;
+  max-width: 600px;
+}
+.HeroStart .hero-button {
+  background-color: var(--AccentColor1);
+  color: var(--LightText);
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+.HeroStart .hero-button:hover {
+  background-color: var(--AccentColor2);
+  color: var(--DarkText);
+}
+@media (max-width: 768px) {
+  .HeroStart {
+    padding: 100px 20px;
+  }
+  .HeroStart h1 {
+    font-size: 40px;
+  }
+  .HeroStart h3 {
+    font-size: 24px;
+  }
+  .HeroStart p {
+    font-size: 16px;
+  }
+  .HeroStart .hero-button {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+}
+/*HERO START - end*/
