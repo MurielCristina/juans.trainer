@@ -23,18 +23,17 @@ code {
   --LightText: #333333; /*(Gris Oscuro)*/
   --LightAccent: #4d757b; /*(Teal Claro)*/
   /*Dark Theme Palette:*/
-  --DarkBG: #1a1a1a; /*(Gris Muy Oscuro)*/
+  --DarkBG: #010101; /*(Gris Muy Oscuro)*/
   --DarkText: #ffffff; /*(Blanco)*/
   --DarkAccent: #a7b8b6; /*(Teal Claro)*/
-
-  .light-theme {
-    --BGColor: var(--LightBG);
-    --TextColor: var(--LightText);
-    --AccentColor: var(--LightAccent);
-  }
-  .dark-theme {
-    --BGColor: var(--DarkBG);
-    --TextColor: var(--DarkText);
-    --AccentColor: var(--DarkAccent);
-  }
+}
+.light-theme {
+  --BGColor: var(--LightBG);
+  --TextColor: var(--LightText);
+  --AccentColor: var(--LightAccent);
+}
+.dark-theme {
+  --BGColor: var(--DarkBG);
+  --TextColor: var(--DarkText);
+  --AccentColor: var(--DarkAccent);
 }
