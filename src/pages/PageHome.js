@@ -9,10 +9,12 @@ import FooterMuri from "../components/FooterMuri";
 export default function PageHome() {
   return (
     <div className="PageHome container">
-      <Navbar />
-      <HeroStart />
-      <FooterJuansTrainer />
-      <FooterMuri />
+      <div className={theme === "dark" ? "dark-theme" : "light-theme"}>
+        <Navbar />
+        <HeroStart />
+        <FooterJuansTrainer />
+        <FooterMuri />
+      </div>
     </div>
   );
 }
