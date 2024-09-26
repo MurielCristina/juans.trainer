@@ -3,7 +3,7 @@ import "./PageHome.css";
 
 import Navbar from "../components/Navbar";
 import HeroStart from "./PageHome/HeroStart";
-import FooteJuansTrainer from "../components/FooterJuansTrainer";
+import FooterJuansTrainer from "../components/FooterJuansTrainer";
 import FooterMuri from "../components/FooterMuri";
 
 export default function PageHome() {
@@ -11,7 +11,7 @@ export default function PageHome() {
     <div className="PageHome container">
       <Navbar />
       <HeroStart />
-      <FooteJuansTrainer />
+      <FooterJuansTrainer />
       <FooterMuri />
     </div>
   );

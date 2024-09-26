@@ -1,38 +1,39 @@
 .FooterJuansTrainer {
-  background-color: #010101;
-  color: var(--DarkAccent);
-  padding: 0 20px;
-  border: 4px solid #010101;
+  background-color: var(--BGColor);
+  color: var(--TextColor);
+  padding: 20px 0;
 }
-.FooterJuansTrainer img {
-  width: 250px;
-  margin: 0;
-  padding: 0;
+.FooterJuansTrainer .footer-logo {
+  width: 200px;
+  border-radius: 50%;
 }
-.FooterJuansTrainer h4 {
-  text-transform: uppercase;
-  font-size: 26px;
-  margin-top: 20px;
-}
+.FooterJuansTrainer h4,
 .FooterJuansTrainer h5 {
+  text-transform: uppercase;
+  font-size: 20px;
   margin-top: 20px;
+  color: var(--AccentColor);
 }
 .FooterJuansTrainer a {
-  font-size: 18px;
-  margin-left: 10px;
+  font-size: 16px;
   text-decoration: none;
-  color: var(--AccentColor1);
-}
-.FooterJuansTrainer .footer-icons {
-  font-size: 20px;
-  margin-left: 10px;
-  color: var(--AccentColor1);
-}
-.FooterJuansTrainer .footer-icons:hover {
-  color: var(--AccentColor2);
-  cursor: pointer;
+  color: var(--TextColor);
 }
 .FooterJuansTrainer a:hover {
-  color: var(--AccentColor2);
+  color: var(--AccentColor1);
   cursor: pointer;
+}
+.FooterJuansTrainer .footer-icons {
+  font-size: 24px;
+  margin-right: 10px;
+  color: var(--AccentColor);
+}
+.FooterJuansTrainer .footer-icons:hover {
+  color: var(--AccentColor1);
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .footer-logo {
+    width: 150px;
+  }
 }
