@@ -28,7 +28,7 @@ export default function Navbar({ theme, toggleTheme }) {
             <Link to="/PagePrograms">PROGRAMS</Link>
           </li>
           <li>
-            <Link to="/PageTrainWithMe">TRAIN WITH ME</Link>
+            <Link to="/PageTrainWithMe">CONTACT</Link>
           </li>
         </ul>
 
