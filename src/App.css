@@ -1,5 +1,12 @@
 .App {
-  background-color: var(--BGColor);
   color: var(--TextColor);
   width: 100%;
+}
+body {
+  background-color: var(--BGColor);
+}
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
 }

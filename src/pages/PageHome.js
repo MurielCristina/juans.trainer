@@ -5,7 +5,7 @@ import HeroStart from "./PageHome/HeroStart";
 
 export default function PageHome({ theme, toggleTheme }) {
   return (
-    <div className="PageHome container">
+    <div className="PageHome content-wrapper">
       <HeroStart />
     </div>
   );

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
@@ -19,11 +19,15 @@ export default function App() {
     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
 
+  useEffect(() => {
+    document.body.className = theme === "dark" ? "dark-theme" : "light-teme";
+  }, [theme]);
+
   return (
     <div className={theme === "dark" ? "dark-theme" : "light-theme"}>
       <Router>
         <Navbar theme={theme} toggleTheme={toggleTheme} />
-        <div className="container">
+        <div className="container-fluid">
           <Routes>
             <Route
               path="/"
