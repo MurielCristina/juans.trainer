@@ -24,36 +24,34 @@ export default function App() {
   }, [theme]);
 
   return (
-    <div>
-      <Router>
-        <Navbar theme={theme} toggleTheme={toggleTheme} />
-        <div className="container-fluid">
-          <Routes>
-            <Route
-              path="/"
-              element={<PageHome theme={theme} toggleTheme={toggleTheme} />}
-            />
-            <Route
-              path="/PageHome"
-              element={<PageHome theme={theme} toggleTheme={toggleTheme} />}
-            />
-            <Route
-              path="/PageAbout"
-              element={<PageAbout theme={theme} toggleTheme={toggleTheme} />}
-            />
-            <Route
-              path="/PagePrograms"
-              element={<PagePrograms theme={theme} />}
-            />
-            <Route
-              path="/PageTrainWithMe"
-              element={<PageTrainWithMe theme={theme} />}
-            />
-          </Routes>
-        </div>
-        <FooterJuansTrainer theme={theme} />
-        <FooterMuri />
-      </Router>
-    </div>
+    <Router>
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
+      <div className="container-fluid">
+        <Routes>
+          <Route
+            path="/"
+            element={<PageHome theme={theme} toggleTheme={toggleTheme} />}
+          />
+          <Route
+            path="/PageHome"
+            element={<PageHome theme={theme} toggleTheme={toggleTheme} />}
+          />
+          <Route
+            path="/PageAbout"
+            element={<PageAbout theme={theme} toggleTheme={toggleTheme} />}
+          />
+          <Route
+            path="/PagePrograms"
+            element={<PagePrograms theme={theme} />}
+          />
+          <Route
+            path="/PageTrainWithMe"
+            element={<PageTrainWithMe theme={theme} />}
+          />
+        </Routes>
+      </div>
+      <FooterJuansTrainer theme={theme} />
+      <FooterMuri theme={theme} />
+    </Router>
   );
 }

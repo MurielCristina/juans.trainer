@@ -1,4 +1,10 @@
 /*HERO START - start*/
+.PageHome {
+  background-color: var(--BGColor);
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
 .HeroStart {
   background-image: url("/src/images/heroPic.jpeg");
   background-size: cover;
@@ -7,6 +13,7 @@
   color: white;
   text-align: center;
   padding: 150px 20px;
+  margin: 0;
 }
 .HeroStart::before {
   content: "";

@@ -4,7 +4,7 @@ import "./FooterMuri.css";
 
 import murilogo from "../images/murilogo.png";
 
-export default function FooterMuri() {
+export default function FooterMuri({ theme }) {
   return (
     <div className="FooterMuri">
       <hr />
