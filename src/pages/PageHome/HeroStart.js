@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 export default function HeroStart() {
   return (
     <section className="HeroStart">
@@ -10,9 +12,9 @@ export default function HeroStart() {
           Empowering you to achieve your fitness goals with personalized
           training and dedicated support.
         </p>
-        <a href="../PageTrainWithMe" class="hero-button btn">
+        <Link to="/PageTrainWithMe" className="hero-button btn">
           Get Started
-        </a>
+        </Link>
       </div>
     </section>
   );

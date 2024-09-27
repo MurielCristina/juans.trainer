@@ -10,7 +10,7 @@
   position: relative;
   color: white;
   text-align: center;
-  padding: 200px 0px;
+  padding: 200px 20px;
   margin: 0;
   overflow: hidden;
 }
@@ -25,16 +25,18 @@
   z-index: 1;
 }
 .hero-content {
+  max-width: 100%;
+  margin: 0 auto;
   position: relative;
   z-index: 2; /* Place content above the overlay */
 }
 .HeroStart h1 {
   font-size: 60px;
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto;
 }
 .HeroStart h3 {
   font-size: 30px;
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto;
 }
 .HeroStart p {
   font-size: 18px;
@@ -42,6 +44,8 @@
   max-width: 600px;
 }
 .HeroStart .hero-button {
+  display: inline-block;
+  margin: 0 auto;
   background-color: var(--AccentColor1);
   color: var(--LightText);
   text-decoration: none;
@@ -53,9 +57,10 @@
   background-color: var(--AccentColor2);
   color: var(--DarkText);
 }
+
 @media (max-width: 768px) {
   .HeroStart {
-    padding: 100px 20px;
+    padding: 100px 10px;
   }
   .HeroStart h1 {
     font-size: 40px;
@@ -65,6 +70,7 @@
   }
   .HeroStart p {
     font-size: 16px;
+    max-width: 90%;
   }
   .HeroStart .hero-button {
     font-size: 16px;
