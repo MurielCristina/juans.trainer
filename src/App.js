@@ -20,11 +20,11 @@ export default function App() {
   };
 
   useEffect(() => {
-    document.body.className = theme === "dark" ? "dark-theme" : "light-teme";
+    document.body.className = theme === "dark" ? "dark-theme" : "light-theme";
   }, [theme]);
 
   return (
-    <div className={theme === "dark" ? "dark-theme" : "light-theme"}>
+    <div>
       <Router>
         <Navbar theme={theme} toggleTheme={toggleTheme} />
         <div className="container-fluid">
