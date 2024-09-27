@@ -1,6 +1,5 @@
 /*HERO START - start*/
 .PageHome {
-  background-color: var(--BGColor);
   margin: 0;
   padding: 0;
 }
@@ -11,8 +10,9 @@
   position: relative;
   color: white;
   text-align: center;
-  padding: 150px 20px;
+  padding: 200px 0px;
   margin: 0;
+  overflow: hidden;
 }
 .HeroStart::before {
   content: "";

@@ -1,5 +1,5 @@
 .Navbar {
-  width: 100%;
+  width: auto;
   background-color: var(--BGColor);
   color: var(--TextColor);
   padding: 10px 20px;
