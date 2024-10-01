@@ -16,7 +16,7 @@
 }
 .HeroStart::before {
   content: "";
-  position: absolute;
+  position: ;
   top: 0;
   left: 0;
   width: 100%;
@@ -61,6 +61,7 @@
 @media (max-width: 768px) {
   .HeroStart {
     padding: 100px 10px;
+    overflow: hidden;
   }
   .HeroStart h1 {
     font-size: 40px;
