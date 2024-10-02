@@ -60,3 +60,52 @@
   }
 }
 /*HERO START - end*/
+/*HOW CAN I HELP - start*/
+.HowCanIHelp {
+  background-color: var(--BGColor);
+  color: var(--TextColor);
+  padding: 60px 20px;
+  text-align: center;
+}
+.HowCanIHelp h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.service-card {
+  background-color: var(--AccentColor);
+  color: var(--BGColor);
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+.service-card:hover {
+  transform: translateY(-10px);
+}
+.service-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.service-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.service-card p {
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  .service-card {
+    width: 80%;
+  }
+}
+/*HOW CAN I HELP - end*/
+/*HAVE QUESTIONS? - start*/
+
+/*HAVE QUESTIONS? - end*/
