@@ -1,0 +1,75 @@
+/* Variables globales */
+:root {
+  --LogoColor: #3d4947; /*Color del Logo*/
+  --LogoColorRGB: 61, 73, 71;
+  --AccentColor1: #a8d5ba; /*(Verde Suave)*/
+  --AccentColor2: #ffd700; /*(Amarillo Dorado)*/
+  /*Light Theme Palette:*/
+  --LightBG: #f7f7f7; /*(Blanco Suave)*/
+  --LightText: #333333; /*(Gris Oscuro)*/
+  --LightAccent: #4d757b; /*(Teal Claro)*/
+  /*Dark Theme Palette:*/
+  --DarkBG: #010101; /*(Gris Muy Oscuro)*/
+  --DarkText: #ffffff; /*(Blanco)*/
+  --DarkAccent: #a7b8b6; /*(Teal Claro)*/
+}
+/* Temas */
+.light-theme {
+  --BGColor: var(--LightBG);
+  --TextColor: var(--LightText);
+  --AccentColor: var(--LightAccent);
+}
+.dark-theme {
+  --BGColor: var(--DarkBG);
+  --TextColor: var(--DarkText);
+  --AccentColor: var(--DarkAccent);
+}
+/* Estilos globales */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--BGColor);
+  color: var(--TextColor);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  overflow-x: hidden;
+}
+/* Estilos de enlaces */
+a {
+  color: var(--TextColor);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--AccentColor1);
+}
+
+/* BOTONES  start */
+.button1 {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: var(--AccentColor1);
+  color: var(--LightText);
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+.button1:hover {
+  background-color: var(--AccentColor2);
+  color: var(--DarkText);
+}
+@media (max-width: 768px) {
+  .button1 {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+}
+/* BOTONES  end */

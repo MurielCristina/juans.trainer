@@ -12,7 +12,7 @@ export default function HeroStart() {
           Empowering you to achieve your fitness goals with personalized
           training and dedicated support.
         </p>
-        <Link to="/PageTrainWithMe" className="hero-button btn">
+        <Link to="/PageTrainWithMe" className="button1">
           Get Started
         </Link>
       </div>

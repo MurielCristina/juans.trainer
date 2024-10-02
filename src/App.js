@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
+import "./Styles.css";
 
 import Navbar from "./components/Navbar";
 import FooterJuansTrainer from "./components/FooterJuansTrainer";
@@ -26,7 +27,7 @@ export default function App() {
   return (
     <Router>
       <Navbar theme={theme} toggleTheme={toggleTheme} />
-      <div className="container-fluid">
+      <div className="main-content">
         <Routes>
           <Route
             path="/"

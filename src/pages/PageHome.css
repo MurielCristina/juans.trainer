@@ -16,7 +16,7 @@
 }
 .HeroStart::before {
   content: "";
-  position: ;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -29,6 +29,7 @@
   margin: 0 auto;
   position: relative;
   z-index: 2; /* Place content above the overlay */
+  text-align: center;
 }
 .HeroStart h1 {
   font-size: 60px;
@@ -42,20 +43,6 @@
   font-size: 18px;
   margin: 0 auto 40px auto;
   max-width: 600px;
-}
-.HeroStart .hero-button {
-  display: inline-block;
-  margin: 0 auto;
-  background-color: var(--AccentColor1);
-  color: var(--LightText);
-  text-decoration: none;
-  padding: 15px 30px;
-  font-size: 18px;
-  transition: background-color 0.3s ease;
-}
-.HeroStart .hero-button:hover {
-  background-color: var(--AccentColor2);
-  color: var(--DarkText);
 }
 
 @media (max-width: 768px) {
@@ -72,10 +59,6 @@
   .HeroStart p {
     font-size: 16px;
     max-width: 90%;
-  }
-  .HeroStart .hero-button {
-    font-size: 16px;
-    padding: 12px 25px;
   }
 }
 /*HERO START - end*/
