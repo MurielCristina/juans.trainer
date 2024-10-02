@@ -1,4 +1,4 @@
-/* Variables globales */
+/* PALETA DE COLORES start */
 :root {
   --LogoColor: #3d4947; /*Color del Logo*/
   --LogoColorRGB: 61, 73, 71;
@@ -13,7 +13,9 @@
   --DarkText: #ffffff; /*(Blanco)*/
   --DarkAccent: #a7b8b6; /*(Teal Claro)*/
 }
-/* Temas */
+/* PALETA DE COLORES end */
+
+/* TEMAS start */
 .light-theme {
   --BGColor: var(--LightBG);
   --TextColor: var(--LightText);
@@ -24,7 +26,9 @@
   --TextColor: var(--DarkText);
   --AccentColor: var(--DarkAccent);
 }
-/* Estilos globales */
+/* TEMAS end */
+
+/* GLOBAL STYLES start */
 *,
 *::before,
 *::after {
@@ -42,7 +46,9 @@ body {
     sans-serif;
   overflow-x: hidden;
 }
-/* Estilos de enlaces */
+/* GLOBAL STYLES end */
+
+/* LINKS start */
 a {
   color: var(--TextColor);
   text-decoration: none;
@@ -50,6 +56,7 @@ a {
 a:hover {
   color: var(--AccentColor1);
 }
+/* LINKS ends */
 
 /* BOTONES  start */
 .button1 {

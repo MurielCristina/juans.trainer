@@ -8,36 +8,31 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  color: white;
+  color: var(--DarkText); /* White text for contrast */
   text-align: center;
-  padding: 200px 20px;
-  margin: 0;
-  overflow: hidden;
+  padding: 150px 20px;
 }
 .HeroStart::before {
+  background-color: rgba(var(--LogoColorRGB), 0.7);
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(var(--LogoColorRGB), 0.7);
   z-index: 1;
 }
 .hero-content {
-  max-width: 100%;
-  margin: 0 auto;
   position: relative;
   z-index: 2; /* Place content above the overlay */
-  text-align: center;
 }
 .HeroStart h1 {
   font-size: 60px;
-  margin: 0 auto 20px auto;
+  margin-bottom: 20px;
 }
 .HeroStart h3 {
   font-size: 30px;
-  margin: 0 auto 20px auto;
+  margin-bottom: 20px;
 }
 .HeroStart p {
   font-size: 18px;
