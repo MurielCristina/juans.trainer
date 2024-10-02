@@ -107,5 +107,52 @@
 }
 /*HOW CAN I HELP - end*/
 /*HAVE QUESTIONS? - start*/
-
+.HaveQuestions {
+  padding: 60px 20px;
+  background-color: var(--AccentColor1);
+  color: var(--TextColor);
+  text-align: center;
+}
+.HaveQuestions h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+.faq-item {
+  background-color: var(--BGColor);
+  color: var(--TextColor);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.faq-questions {
+  padding: 15px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-questions h3 {
+  font-size: 18px;
+  margin: 0;
+}
+.faq-question span {
+  font-size: 24px;
+}
+.faq-answer {
+  padding: 0 20px 15px 20px;
+}
+.faq-answer p {
+  margin: 0;
+}
+.faq-item.active .faq-answer {
+  display: block;
+}
+.faq-item .faq-answer {
+  display: none;
+}
 /*HAVE QUESTIONS? - end*/
