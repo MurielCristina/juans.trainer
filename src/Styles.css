@@ -26,6 +26,7 @@
   --TextColor: var(--DarkText);
   --AccentColor: var(--DarkAccent);
 }
+
 /* TEMAS end */
 
 /* GLOBAL STYLES start */
@@ -72,6 +73,30 @@ a:hover {
 .button1:hover {
   background-color: var(--AccentColor2);
   color: var(--DarkText);
+}
+.button2 {
+  display: inline-block;
+  background-color: var(--AccentColor2);
+  color: var(--DarkBG);
+  padding: 15px 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.button2:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  text-transform: uppercase;
+  color: var(--DarkBG);
+  font-weight: 700;
+}
+.button2:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 768px) {
   .button1 {

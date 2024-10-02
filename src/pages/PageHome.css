@@ -156,3 +156,15 @@
   display: none;
 }
 /*HAVE QUESTIONS? - end*/
+/*BANNER - start*/
+.Banner {
+  background: linear-gradient(180deg, var(--AccentColor1), var(--BGColor));
+  color: var(--TextColor);
+  text-align: center;
+  padding: 60px 20px;
+}
+.Banner h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+/*BANNER - end*/
