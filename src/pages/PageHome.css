@@ -3,17 +3,19 @@
   margin: 0;
   padding: 0;
 }
+
 .HeroStart {
   background-image: url("/src/images/heroPicSmall.jpeg");
   background-size: cover;
   background-position: center;
   position: relative;
-  color: var(--DarkText); /* White text for contrast */
+  color: var(--DarkText);
   text-align: center;
   padding: 150px 20px;
+  width: 100%;
 }
 .HeroStart::before {
-  background-color: rgba(var(--LogoColorRGB), 0.7);
+  background-color: rgba(var(--LogoColorRGB), 0.75);
   content: "";
   position: absolute;
   top: 0;
@@ -22,6 +24,7 @@
   height: 100%;
   z-index: 1;
 }
+
 .hero-content {
   position: relative;
   z-index: 2; /* Place content above the overlay */
