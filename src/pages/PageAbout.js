@@ -1,9 +1,16 @@
 import React from "react";
+import "./PageAbout.css";
+
+import Banner from "./PageHome/Banner";
+import PageAboutIntro from "./PageAbout/PageAboutIntro";
+import PageAboutBio from "./PageAbout/PageAboutBio";
 
 export default function PageAbout() {
   return (
     <div className="PageAbout content-wrapper">
-      <h1>Contenido de la página de about</h1>
+      <PageAboutIntro />
+      <PageAboutBio />
+      <Banner />
     </div>
   );
 }
