@@ -1,0 +1,57 @@
+.PagePrograms {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 100%;
+  color: var(--TextColor);
+  background-color: var(--BGColor);
+}
+.PagePrograms h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.programs-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+}
+.program-option {
+  width: 300px;
+  border: 1px solid var(--AccentColor);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.program-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--AccentColor1);
+  color: var(--DarkText);
+  padding: 20px;
+  cursor: pointer;
+}
+.program-header h2 {
+  margin: 0;
+  font-size: 28px;
+}
+.arrow {
+  margin-left: 8px;
+  font-size: 20px;
+}
+.program-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background-color: var(--BGColor);
+  color: var(--TextColor);
+  padding: 0 20px;
+}
+.program-content.open {
+  max-height: 500px;
+  padding: 20px;
+}
+.PagePrograms .button2 {
+  margin: 20px;
+}
