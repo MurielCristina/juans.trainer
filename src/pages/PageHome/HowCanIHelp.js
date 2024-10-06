@@ -41,7 +41,7 @@ export default function HowCanIHelp() {
 
   return (
     <section className="HowCanIHelp">
-      <h2>Unlock Your Potential with Personalized Training</h2>
+      <h2>Unleash Your Potential with Personalized Training</h2>
       <div className="services-grid">
         {services.map((service, index) => (
           <div className="service-card" key={index}>
@@ -51,6 +51,7 @@ export default function HowCanIHelp() {
           </div>
         ))}
       </div>
+      <p className="button3">Book your free session</p>
     </section>
   );
 }
