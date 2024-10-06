@@ -109,7 +109,7 @@
 /*HAVE QUESTIONS? - start*/
 .HaveQuestions {
   padding: 60px 20px;
-  background-color: var(--AccentColor1);
+  background: linear-gradient(180deg, var(--BGColor), var(--AccentColor1));
   color: var(--TextColor);
   text-align: center;
 }
